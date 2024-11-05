@@ -1,0 +1,69 @@
+/* assets/style.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Navigation styling */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+/* Heading styling */
+h1, h2 {
+    color: #007bff;
+}
+
+/* Button styling */
+button {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Adding animation */
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Form styling */
+form {
+    margin-top: 20px;
+}
+
+/* Add your custom styles below */
